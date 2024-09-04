@@ -1,7 +1,7 @@
 :root {
-    --black: #000;
-    --white: #fff;
-    --yellow: #FFBA08;
+    --nero: #000;
+    --bianco: #fff;
+    --giallo: #FFBA08;
 }
 
 * {
@@ -43,9 +43,9 @@ body {
 }
 
 .btnPrimary {
-    background-color: var(--yellow);
+    background-color: var(--giallo);
     font-size: 30px;
-    color: var(--black);
+    color: var(--nero);
     line-height: 38px;
     width: max-content;
     display: block;
@@ -71,14 +71,14 @@ header .lstMenu {
 
 header .lstMenu .itemMenu a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--nero);
     font-size: 24px;
     line-height: 30px;
 }
 
 
 header .lstMenu .itemMenu.active {
-    background-color: var(--yellow);
+    background-color: var(--giallo);
 }
 
 main {
@@ -133,7 +133,7 @@ section:not(:first-child) {
 .Banner .titolo {
     font-family: "Aku & Kamu";
     margin-bottom: 70px;
-    color: var(--black);
+    color: var(--nero);
     font-size: 64px;
 }
 
@@ -181,8 +181,8 @@ section:not(:first-child) {
 }
 
 .Fotografia .fotografiaContenuto .titolo {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--nero);
+    color: var(--bianco);
     width: fit-content;
     margin-bottom: 40px;
     font-size: 24px;
@@ -195,7 +195,7 @@ section:not(:first-child) {
 }
 
 .Fotografia .fotografiaContenuto .credito {
-    color: var(--black);
+    color: var(--nero);
     width: fit-content;
     margin-bottom: 40px;
     font-size: 16px;
@@ -240,12 +240,12 @@ section:not(:first-child) {
 .InformazioniProgetto .informazioniProgettoContenuto .informazioni .descrizione a {
     font-family: "Special Elite";
     font-size: 16px;
-    color: var(--black);
+    color: var(--nero);
 }
 
 .InformazioniProgetto .informazioniProgettoContenuto .caratteristiche .caratteristicaTitolo {
-    background-color: var(--yellow);
-    color: var(--black);
+    background-color: var(--giallo);
+    color: var(--nero);
     font-size: 30px;
     width: fit-content;
     margin-bottom: 20px;
@@ -253,7 +253,7 @@ section:not(:first-child) {
 
 .InformazioniProgetto .informazioniProgettoContenuto .caratteristiche .caratteristicaDescrizione {
     font-family: "Special Elite";
-    color: var(--black);
+    color: var(--nero);
     font-size: 16px;
     margin-bottom: 40px;
 }
@@ -275,8 +275,8 @@ section:not(:first-child) {
     width: fit-content;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--nero);
+    color: var(--bianco);
     font-size: 16px;
 }
 
@@ -287,7 +287,7 @@ section:not(:first-child) {
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    color: var(--black);
+    color: var(--nero);
     font-size: 12px;
 }
 
@@ -297,14 +297,14 @@ section:not(:first-child) {
 
 .DiPuiSu .diPuiSuContenuto .titolo {
     font-family: "Special Elite";
-    color: var(--black);
+    color: var(--nero);
     font-size: 16px;
     margin-bottom: 17px;
 }
 
 .DiPuiSu .diPuiSuContenuto .collegamento {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--nero);
+    color: var(--bianco);
     font-size: 24px;
     padding: 4px 0;
 }
@@ -330,14 +330,14 @@ section:not(:first-child) {
 
 .Biglietti .lstBiglietto .biglietto .informazioni p {
     font-family: "Special Elite";
-    color: var(--black);
+    color: var(--nero);
     font-size: 16px;
     margin-bottom: 12px;
 }
 
 .Biglietti .lstBiglietto .biglietto .azione {
-    background-color: var(--yellow);
-    color: var(--black);
+    background-color: var(--giallo);
+    color: var(--nero);
     font-size: 30px;
     display: block;
     margin-top: 43px;
@@ -353,7 +353,7 @@ section:not(:first-child) {
 .InformazioniBanner .informazioniBannerContenuto .immagine .titolo {
     font-family: "Aku & Kamu";
     font-size: 48px;
-    color: var(--black);
+    color: var(--nero);
 }
 
 .InformazioniBanner .informazioniBannerContenuto .immagine img {
@@ -364,7 +364,7 @@ section:not(:first-child) {
 
 .InformazioniBanner .informazioniBannerContenuto .immagine .credito {
     font-family: "Special Elite";
-    color: var(--black);
+    color: var(--nero);
     font-size: 16px;
 }
 
@@ -377,8 +377,8 @@ section:not(:first-child) {
 }
 
 .InformazioniBanner .informazioniBannerContenuto .caratteristiche .caratteristica .caratteristicaTitolo {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--nero);
+    color: var(--bianco);
     width: fit-content;
     padding: 4px 0;
     margin-bottom: 30px;
@@ -388,7 +388,7 @@ section:not(:first-child) {
 .InformazioniBanner .informazioniBannerContenuto .caratteristiche .caratteristica .caratteristicaDescrizione,
 .InformazioniBanner .informazioniBannerContenuto .caratteristiche .caratteristica .caratteristicaDescrizione span {
     font-family: "Special Elite";
-    color: var(--black);
+    color: var(--nero);
     font-size: 16px;
 }
 
@@ -400,7 +400,7 @@ section:not(:first-child) {
 .Recensioni .titolo {
     font-family: "Aku & Kamu";
     font-size: 64px;
-    color: var(--black);
+    color: var(--nero);
     text-align: center;
     margin-bottom: 80px;
 }
@@ -414,7 +414,7 @@ section:not(:first-child) {
 footer {
     padding: 110px 0 37px 0;
     position: relative;
-    background: var(--white);
+    background: var(--bianco);
 }
 
 footer .strappo {
@@ -439,8 +439,8 @@ footer .footerContenuto .sezioneFooter.destra {
 }
 
 footer .footerContenuto .sezioneFooter .titolo {
-    color: var(--white);
-    background-color: var(--yellow);
+    color: var(--bianco);
+    background-color: var(--giallo);
     font-size: 32px;
     width: fit-content;
     margin-bottom: 20px;
